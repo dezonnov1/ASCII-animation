@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ASCII animation", "ASCII animation\ASCII animation.vcxproj", "{C69113E3-78A1-4D0C-82EF-EE1FE0F9B4FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C69113E3-78A1-4D0C-82EF-EE1FE0F9B4FC}.Debug|x64.ActiveCfg = Debug|x64
+		{C69113E3-78A1-4D0C-82EF-EE1FE0F9B4FC}.Debug|x64.Build.0 = Debug|x64
+		{C69113E3-78A1-4D0C-82EF-EE1FE0F9B4FC}.Debug|x86.ActiveCfg = Debug|Win32
+		{C69113E3-78A1-4D0C-82EF-EE1FE0F9B4FC}.Debug|x86.Build.0 = Debug|Win32
+		{C69113E3-78A1-4D0C-82EF-EE1FE0F9B4FC}.Release|x64.ActiveCfg = Release|x64
+		{C69113E3-78A1-4D0C-82EF-EE1FE0F9B4FC}.Release|x64.Build.0 = Release|x64
+		{C69113E3-78A1-4D0C-82EF-EE1FE0F9B4FC}.Release|x86.ActiveCfg = Release|Win32
+		{C69113E3-78A1-4D0C-82EF-EE1FE0F9B4FC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70FC8ACF-1F35-45AD-9245-EF6B1B1CF2C2}
+	EndGlobalSection
+EndGlobal
