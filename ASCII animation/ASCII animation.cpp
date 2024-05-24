@@ -82,10 +82,10 @@ int main()
 		{
 			system("CLS");
 			string filename;
-			cout << "<" + actions[1] + ">\nEnter the file name like as 'anim'. (Have been saved in folder 'animations'\n>";
+			cout << "<" + actions[1] + ">\nEnter the file name like as 'anim'\n>";
 			cin >> filename;
 			ifstream ifn;
-			ifn.open("animations\\" + filename + ".txt"); // только чтение
+			ifn.open(filename + ".txt"); // только чтение
 			if (ifn.is_open())
 			{
 				Frames.clear();
@@ -104,11 +104,15 @@ int main()
 						frame += "\n" + temp;
 					}
 				}
+				cout << "Animation have been read!";
+				
 			}
 			else {
-				cout << "File cannot be opened";
+				cout << "File cannot be opened.";
 			}
 			ifn.close();
+			cout << " Wait...";
+			Sleep(3000);
 
 		}
 		else if (str == actions[2] or str == to_string(3)) {
@@ -116,10 +120,10 @@ int main()
 			{
 				system("CLS");
 				string filename;
-				cout << "<" + actions[2] + ">\nEnter the file name like as 'anim'. (Have been saved in folder 'animations'\n>";
+				cout << "<" + actions[2] + ">\nEnter the file name like as 'anim'.\n>";
 				cin >> filename;
 				ofstream ofn;
-				ofn.open("animations\\" + filename + ".txt"); // только запись
+				ofn.open(filename + ".txt"); // только запись
 				if (ofn.is_open())
 				{
 					//запись vector в TXT
@@ -127,14 +131,16 @@ int main()
 					for (string frame : Frames) {
 						ofn << frame + "\nEND";
 					}
-					cout << "All animation have been saved!\n";
+					cout << "All animation have been saved!";
 				}
 				else {
-					cout << "File cannot be opened";
+					cout << "File cannot be opened.";
 				}
 				ofn.close();
 			}
 			else cout << "There is no open animation right now!\n";
+			cout << " Wait...";
+			Sleep(3000);
 		}
 		else if (str == actions[3] or str == to_string(4))
 		{
